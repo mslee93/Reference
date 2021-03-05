@@ -1,0 +1,8 @@
+python python_auto_conversion.py "{작업폴더경로}"
+
+==> python python_auto_conversion.py "C:\conversion"
+
+프로그램 실행 후(작업폴더 경로는 "C:\conversion"로 가정) 
+"C:\conversion\Input" 폴더에 pdf파일을 넣으면 약 1분 이내에 실행됩니다.
+
+변환이 완료되면 "C:\conversion\Output" 폴더에 산출물이 생생되었음을 확인할 수 있습니다.
