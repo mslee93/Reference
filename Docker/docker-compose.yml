@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  shipmentplanning_grpc:
+    restart: always
+    image: soil-shipmentplanning-grpc:0.0.0.1
+    command: /usr/bin/supervisord
+    ports:
+      - "50051:50051"
+      - "1001:22"
